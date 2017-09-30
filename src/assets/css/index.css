@@ -1,0 +1,105 @@
+body{
+  background-image: url("../images/coal.jpg");
+  background-size: cover;
+  color: whitesmoke;
+}
+
+.navbar-inverse{
+	background: #121F25;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #DB3118;
+}
+.navbar-inverse .navbar-brand {
+    color: #DB3118;
+    font-size: 35px;
+}
+.container{
+  margin-top: 100px;
+}
+
+.carousel-inner .item>img{
+  margin: 0 auto;
+  width: 80%;
+  height: 500px;
+}
+
+h1{
+  width: 65%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  color: #DB3118;
+  background: #121F25;
+
+  }
+section{
+  margin-top: 150px;
+}
+.markers{
+  background: #121F25;
+  width: 100%;
+  height: auto;
+  /*margin-top: 75px;*/
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.newSec {
+display: block;
+margin: 0 auto;
+/*margin-top: 100px;*/
+width: 800px;
+height: auto;
+color: #AEB5C8;
+font-size: 20px;
+}
+
+img{
+  margin: 0 auto;
+  display: block;
+  /*margin-top: 75px;*/
+  left: 170px;
+}
+.footer{
+  display: block;
+  height: 175px;
+  margin: 0 auto;
+  margin-bottom: 0;
+  margin-top: 100px;
+  background: #121F25;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.footer-box{
+  position: relative;
+  height: 60%;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.info{
+  width: 50%;
+  float:left;
+  vertical-align: middle;
+  color: #AEB5C8;
+}
+
+ul{
+  list-style: none;
+
+  }
+ul a{
+  color: #AEB5C8;
+}
+
+h2 a{
+  display: block;
+  margin: 0 auto;
+  color: #DB3118;
+  text-align: center;
+}
