@@ -11,10 +11,11 @@ body{
 
 .navbar-inverse .navbar-nav>li>a {
     color: #BAB8B9;
+    font-size: 20px;
 }
 .navbar-inverse .navbar-brand {
     color: #BAB8B9;
-    font-size: 35px;
+    font-size: 25px;
 }
 .party{
   height:100px;
@@ -36,13 +37,13 @@ h1{
   margin: 0px auto;
   padding: 10px;
   text-align: center;
-  color: #DB3118;
+  color: #121F25;
     /*margin: 0 0 64px 0;*/
   }
 
 .tmi{
   /*margin-top: 25px;*/
-
+  color: #DB3118;
   font-weight: 700;
   text-transform: capitalize;
   /*background: rgba(206, 215, 209, 0.3);*/
