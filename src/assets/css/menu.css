@@ -1,37 +1,81 @@
 body{
-  background-image: url("images/coal.jpg");
-  background-size: cover;
-  color: whitesmoke;
+  background: url("images/coal.jpg");
+  background-size: auto;
+  color: #f5f5f5;
   text-align: center;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding-top: 35px;
 }
 
 .navbar-inverse{
-	background: #121F25;
+	background-color: : #0C1D24;
+  color: #f5f5f5;
+  box-shadow: 2px 2px 2px 1px rgba(12,9,36,.2);
+  /*border-bottom: 2px solid #0C1D24;*/
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    color: #BAB8B9;
+ .navbar-inverse .navbar-nav > li > a {
+    color: #f5f5f5 !important;
     font-size: 20px;
+    font-weight: 400;
 }
 .navbar-inverse .navbar-brand {
-    color: #BAB8B9;
-    font-size: 25px;
+    color: #f5f5f5 !important;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: "Fredericka the Great", cursive;
 }
 
-.newSec {
-display: block;
-margin: 0 auto;
-margin-top: 75px;
-width: 800px;
-height: auto;
-color: #AEB5C8;
-font-size: 20px;
+.navbar-nav .next a:hover{
+  color: #cc3300 !important;
+}
+.navbar-nav .active a{
+  background-color: #2d333a !important;
 }
 
-img{
+.menuSec img{
   margin: 0 auto;
+  margin-bottom: 15px;
   display: block;
-  /*margin-top: 75px;*/
-  left: 170px;
-  height: 880px;
+  margin-top: 50px;
+  left: 200px;
+  height: 900px;
+
 }
+
+
+/*
+.footer{
+  display: block;
+  height: 125px;
+  margin: 0 auto;
+  margin-bottom: 0;
+  margin-top: 90px;
+  background: #0C1D24;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.footer-box{
+  position: relative;
+  height: 60%;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.info{
+  width: 50%;
+  float:left;
+  vertical-align: middle;
+  color: #fbfbfb;
+}
+
+ul{
+  list-style: none;
+
+  }
+ul a{
+  color: #fbfbfb;
+}*/
