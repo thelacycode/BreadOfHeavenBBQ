@@ -30,16 +30,10 @@ body{
     font-family: "Fredericka the Great", cursive;
 }
 
-.navbar-nav .next a:hover{
-  color: #cc3300 !important;
-}
-.navbar-nav .active a{
+.navbar-nav a:hover{
   background-color: #2d333a !important;
 }
 
-.about:active{
-  background-color: #2d333a !important;
-}
 .party{
   height:50px;
   /*padding-top: 25px;*/
@@ -111,12 +105,11 @@ section{
 .footer{
   display: block;
   height: 125px;
-  margin: 0 auto;
-  margin-bottom: 0;
+  /*margin: 0 auto;*/
   margin-top: 90px;
   background: #0C1D24;
   padding-top: 25px;
-  padding-bottom: 10px;
+
 }
 .footer-box{
   position: relative;
@@ -130,8 +123,18 @@ section{
 .info{
   width: 50%;
   float:left;
-  vertical-align: middle;
   color: #fbfbfb;
+  /*padding-bottom: 10px;*/
+}
+
+.lacyCode{
+  width: 25%;
+  float:left;
+  color: #fbfbfb;
+  padding-right: 10px;
+  text-align: right;
+  margin-bottom: 0;
+  font-size: 13px;
 }
 
 ul{
