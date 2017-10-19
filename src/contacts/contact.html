@@ -5,21 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Contact Page</title>
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-  <link rel="stylesheet" type="text/css" href="../assets/css/contact.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/contact.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Great+Vibes|Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-  <div class="background-wrap">
-    <video id="video-bg" perload="auto" autoplay="true" loop="loop" muted="muted">
-      <source src="Fire.mp4" type="video/mp4"  />
-    </video>
-  </div>
-<div class="content">
+
+  <!-- Sidebar -->
+  <div class="sidebar" style="width:25%">
+    <h2 class="brand">Bread of Heaven BBQ</h2>
+    <h3 class="brand">Let us cater your next event.</h3>
+
+   <div class="contact">
+     <form action="mailto:thelacycode@gmail.com" method="post" enctype="text/plain">
+     Name:<br>
+     <input type="text" name="name" required><br /><br />
+     E-mail:<br />
+     <input type="email" name="email" required><br /><br />
+     Phone #:<br />
+     <input type="tel" name="number"><br /><br />
+     Brief Summary:<br />
+     <textarea name="comments" rows="10" cols="40" placeholder="Add comments here"></textarea><br /><br /><br>
+     <input type="submit" value="Send"class="select">
+     <input type="reset" value="Reset"class="select">
+     </form>
+   </div><br><br>
+   <a href="../../index.html" class='myButton'>Home</a><br />
+   <a href="../../index.html#About"  class='myButton'>About</a><br />
+   <a href="../menu/menu.html"  class='myButton'>Menu</a><br />
+
+ </div>
+
+ <div>
+   <div class="background-wrap" style="margin-left:25%">
+     <video id="video-bg" perload="auto" autoplay="true" loop="loop" muted="muted">
+       <source src="Fire.mp4" type="video/mp4"  />
+     </video>
+   </div>
+ </div>
+
+
+
+
+<!-- <div class="content">
     <<h1>Schedule you next catering event.</h1>
       <h3>(Coming Soon)</h3>
-</div>
+</div> -->
 
-<!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
